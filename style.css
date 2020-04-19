@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.box-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.my_acc {
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.38px;
+}
+
+.browse {
+    width: 87px;
+    height: 38px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+    color: #222222;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.35px;
+}
+
+.logo {
+    width: 160px;
+    display: block;
+    color: #222222;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.68px;
+    text-decoration: none;
+    margin: 25px 0;
+}
+
+.logo span {
+    color: #f16d7f;
+    font-weight: 400;
+    letter-spacing: 0.68px;
+}
+
+.nav {
+    height: 51px;
+}
+
+.nav ul {
+    width: 680px;
+    height: 38px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+nav li {
+    margin: 15px;
+}
+
+.nav a {
+    display: block;
+    flex-direction: row;
+    color: #222222;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 17px 10px;
+}
+
+.searchForm {
+    height: 38px;
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 0; /* Значение полей */
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+}
+.searchForm li {
+    height: 38px;
+    display: inline; /* Отображать как строчный элемент */
+    margin: 0; /* Отступ слева */
+    padding: 0; /* Поля вокруг текста */
+}
+
