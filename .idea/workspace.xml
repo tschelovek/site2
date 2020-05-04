@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8036f47b-9b5c-45c5-8e5e-e0ad5b800618" name="Default Changelist" comment="sections were made&#10;added decoration">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Layer 40.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Layer_38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Layer_41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/commercial1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/commercial2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/commercial3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/commercial4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/s_cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/showcase1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/showcase2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/showcase3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/showcase4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1atX4I8lTWgjVXBRnaQxklJACq9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/www/site/index.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\STUDY\Web Prgrm\site" />
+      <recent name="E:\STUDY\Web Prgrm\site\images\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\STUDY\Web Prgrm\site\css" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8036f47b-9b5c-45c5-8e5e-e0ad5b800618" name="Default Changelist" comment="" />
+      <created>1586978338317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586978338317</updated>
+      <workItem from="1586978341540" duration="4528000" />
+      <workItem from="1587034735870" duration="8025000" />
+      <workItem from="1587051779217" duration="3944000" />
+      <workItem from="1587122064187" duration="1498000" />
+      <workItem from="1587123613268" duration="1669000" />
+      <workItem from="1587138423197" duration="5550000" />
+      <workItem from="1587311155601" duration="6034000" />
+      <workItem from="1587325560957" duration="7479000" />
+      <workItem from="1587372735369" duration="275000" />
+      <workItem from="1587373061369" duration="12907000" />
+      <workItem from="1587389670353" duration="3072000" />
+      <workItem from="1587396807387" duration="12337000" />
+      <workItem from="1587416637218" duration="844000" />
+      <workItem from="1587454338373" duration="13670000" />
+      <workItem from="1587489715924" duration="3521000" />
+      <workItem from="1587540881761" duration="363000" />
+      <workItem from="1587555672513" duration="26331000" />
+      <workItem from="1587632032872" duration="2796000" />
+      <workItem from="1588412695722" duration="4269000" />
+      <workItem from="1588424715639" duration="266000" />
+      <workItem from="1588425011442" duration="722000" />
+      <workItem from="1588425887368" duration="1342000" />
+      <workItem from="1588441279409" duration="605000" />
+      <workItem from="1588487423405" duration="5765000" />
+      <workItem from="1588507104316" duration="3912000" />
+      <workItem from="1588578459663" duration="12702000" />
+      <workItem from="1588605192181" duration="476000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1587327341005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587327341005</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added sections">
+      <created>1587416264812</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587416264812</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changed classes&#10;fixed flexes">
+      <created>1587541201712</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587541201713</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="added sections" />
+    <MESSAGE value="changed classes&#10;fixed flexes" />
+    <MESSAGE value="sections were made&#10;added decoration" />
+    <option name="LAST_COMMIT_MESSAGE" value="sections were made&#10;added decoration" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="776" y="509" key="FileChooserDialogImpl" timestamp="1588605348926">
+      <screen x="78" y="0" width="2482" height="1080" />
+    </state>
+    <state x="776" y="509" key="FileChooserDialogImpl/78.0.2482.1080@78.0.2482.1080" timestamp="1588605348926" />
+    <state x="1171" y="272" key="SettingsEditor" timestamp="1588605354761">
+      <screen x="78" y="0" width="2482" height="1080" />
+    </state>
+    <state x="1171" y="272" key="SettingsEditor/78.0.2482.1080@78.0.2482.1080" timestamp="1588605354761" />
+    <state x="877" y="412" key="Vcs.Push.Dialog.v2" timestamp="1588605660289">
+      <screen x="78" y="0" width="2482" height="1080" />
+    </state>
+    <state x="877" y="412" key="Vcs.Push.Dialog.v2/78.0.2482.1080@78.0.2482.1080" timestamp="1588605660289" />
+    <state x="1165" y="488" key="git4idea.rebase.GitRebaseDialog" timestamp="1588605245960">
+      <screen x="78" y="0" width="2482" height="1080" />
+    </state>
+    <state x="1165" y="488" key="git4idea.rebase.GitRebaseDialog/78.0.2482.1080@78.0.2482.1080" timestamp="1588605245960" />
+  </component>
+</project>

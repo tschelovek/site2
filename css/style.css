@@ -1,29 +1,59 @@
 
-.header {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
-    border: 1px solid #ececec;
-    width: 1200px;
-    margin: 0 auto;
+h1 {
+    margin: 0;
+    color: #222222;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 0.75px;
+    text-align: center;
 }
+
+h2 {
+    color: #9f9f9f;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.35px;
+    text-align: center;
+    margin: 10px 0 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.header hr {
+    max-width: 100vw;
+    border: none;
+    height: 1px;
+    background: #9f9f9f;
+}
+
 
 .container {
     width: 1200px;
     padding: 0 30px;
     margin: 0 auto;
+    box-sizing: border-box;
+
 }
 
 .brand_search_login {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 30px;
     display: flex;
-    justify-content: space-around;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     flex-direction: row;
     align-items: center;
-    height: 100px;
+    padding: 30px 0;
 }
 
 .button_pink {
@@ -31,7 +61,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     background-color: #f16d7f;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #ffffff;
     font-family: sans-serif;
     font-size: 15px;
@@ -42,22 +72,21 @@
 }
 
 .logo {
-    width: 160px;
     display: block;
     color: #222222;
     font-family: sans-serif;
     font-size: 27px;
     font-weight: 300;
     line-height: 32px;
-    letter-spacing: 0.68px;
     text-decoration: none;
-    margin: 25px 0;
+    margin-right: 40px;
+    transform: translateY(-10px);
+    padding-top: 20px;
 }
 
 .logo span {
     color: #f16d7f;
-    font-weight: 400;
-    letter-spacing: 0.68px;
+    font-weight: normal;
 }
 
 .searchForm {
@@ -66,8 +95,7 @@
     font-size: 14px;
     display: flex;
     flex-direction: row;
-    margin: 0;
-    padding: 0;
+    margin-right: auto;
     border-radius: 3px;
     border: 1px solid #e6e6e6;
     background-color: #cdcdcc;
@@ -98,7 +126,9 @@
 }
 
 .nav {
-    height: 51px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
 }
 
 .nav ul {
@@ -107,6 +137,7 @@
     list-style-type: none;
     justify-content: space-around;
     margin: 0 auto;
+    align-items: center;
 }
 
 .nav a {
@@ -116,50 +147,130 @@
     font-family: sans-serif;
     font-size: 14px;
     font-weight: bold;
-    line-height: 60px;
     text-transform: uppercase;
     text-decoration: none;
     white-space: nowrap;
+    position: relative;
+    padding: 10px 0;
+
+}
+
+.nav a:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+    position: absolute;
+    background-color: #f16d7f;
+    border-bottom: 4px solid #f16d7f; /* Не работает :( */
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity .3s linear;
+}
+
+
+.nav a:hover:after {
+    opacity: 1;
+}
+
+.s_poster {
+    background: #e8e8e8;
 }
 
 .poster {
-    background: url("../images/kudri.png");
-    height: 665px;
-    width: 1365px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.poster img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.poster__name__container {
+    border-left: 6px solid #f16d7f;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-left: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.poster__name {
+    display: inline-block;
+    text-transform: uppercase;
     color: #222222;
     font-family: sans-serif;
-    font-size: 40px;
-    font-weight: normal;
-    text-transform: uppercase;
-    text-decoration: none;
-    vertical-align: center;
-    letter-spacing: 1.5px;
-    margin: 0 auto;
-}
-
-.poster_name {
-    display: block;
-    padding-top: 280px;
-    padding-left: 20px;
-}
-
-.poster a {
     font-size: 60px;
-    font-weight: normal;
-    color: #222222;
-    text-transform: uppercase;
     text-decoration: none;
+    letter-spacing: 1.5px;
 }
 
-.poster span {
-    color: #f16d7f;
-    letter-spacing: 1px;
+.poster p {
+    font-family: sans-serif;
     font-size: 40px;
+    margin: 0;
+}
+
+.poster p span {
+    color: #f16d7f;
 }
 
 .showcase {
-    margin-top: 100px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.showcase_half {
+    width: 49%;
+}
+
+.showcase_big, .showcase_small {
+    height: 560px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.showcase_big img, .showcase_small img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.showcase_small {
+    height: 260px;
+}
+
+.showcase_text {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 15px 20px;
+}
+
+.showcase_text span {
+    color: #f16d7f;
+    font-size: 30px;
+    letter-spacing: 0.75px;
 }
 
 .fetured {
@@ -175,7 +286,7 @@
     letter-spacing: 0.75px;
 }
 
-.text {
+.simple_text {
     color: #9f9f9f;
     font-family: sans-serif;
     font-size: 14px;
@@ -185,24 +296,35 @@
 }
 
 .fetured_items {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .item {
-    width: 260px;
+    width: 23%;
     height: 360px;
-    margin: 15px;
     text-decoration: none;
     color: #222222;
     font-family: sans-serif;
     font-size: 14px;
     font-weight: normal;
     text-transform: uppercase;
-    display: flex;
-    flex-direction: column;}
+    margin-bottom: 50px;
+}
 
 .item ul {
+    margin: 0 auto;
+    line-height: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
 
+.item a {
+    margin: 20px;
+    text-decoration: none;
+    color: #333;
 }
 
 .item span {
@@ -211,40 +333,188 @@
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 8px;
+    margin: 20px;
+
 }
 
-.info { /* Style for "Objectivel" */
-    width: 427px;
-    height: 180px;
-    color: #898989;
+.all_product {
+    margin: 50px 0 100px;
+    text-align: center;
+}
+
+.commercial {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 100px;
+    background-color: #222224;
+}
+
+.commercial_text {
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: normal;
+    text-align: left;
+    background: none;
+    color: #eeeeee;
+    liту
+
+}
+
+.commercial_text span {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+/*
+.commercial img {
+    height: 100%;
+}
+*/
+.delivery_types {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.delivery {
+    padding-left: 35px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+delivery img {
+    height: 270px;
+    object-fit: cover;
+}
+
+.delivery p {
+    padding: 0 35px 20px;
+    text-align: justify;
+    font-family: sans-serif;
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.delivery span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fbfbfb;
+    text-align: left;
+    padding: 0 35px 20px;
+    font-family: sans-serif;
+}
+
+.s_subscribe {
+    display: block;
+    justify-content: center;
+
+}
+
+.subscribe {
+    opacity: 0.6;
+    background: url(../images/Layer_41.png) no-repeat center;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 0 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.subscribe img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.subscribe__half{
+    height: 430px;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.about_us {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
     font-family: sans-serif;
     font-size: 14px;
     font-weight: lighter;
     line-height: 24px;
-    /* Text style for "Objectivel" */
-    letter-spacing: 0.35px;
+    text-align: left;
+    color: #898989;
+}
+
+.about_us ul {
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+    line-height: 40px;
+    padding: 20px 50px;
+    margin-top: 0;
+}
+
+.about_us ul span {
+    list-style-type: none;
+    font-family: sans-serif;
+    color: #f16d7f;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 26px;
+    text-transform: uppercase;
+    white-space: nowrap;
 }
 
 footer {
-    margin: 0 auto;
-    display: flex;
     background-color: #e6e6e6;
-    justify-content: space-between;
 
 }
 
 .follow_us {
     display: flex;
     list-style-type: none;
+    vertical-align: center;
+}
+
+.follow_us li {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
 }
 
 .follow_us a {
-    width: 32px;
-    height: 32px;
-    margin: 8px;
+    margin-left: 10px;
+    padding-left: 5px; /* Duct tape */
     display: block;
-    flex-direction: row;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
     background-color: #ffffff;
     list-style-type: none;
+    color: #b2b2b2;
+}
+
+.backgr_gray {
+    display: flex;
+    justify-content: space-between;
+}
+
+.backgr_gray p {
+    display: block;
 }
