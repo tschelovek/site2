@@ -1,38 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8036f47b-9b5c-45c5-8e5e-e0ad5b800618" name="Default Changelist" comment="sections were made&#10;added decoration">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer 40.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer_38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Layer_41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/commercial1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/commercial2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/commercial3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/commercial4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/item3_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/s_cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/showcase1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/showcase2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/showcase3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/showcase4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -130,7 +118,9 @@
       <workItem from="1588487423405" duration="5765000" />
       <workItem from="1588507104316" duration="3912000" />
       <workItem from="1588578459663" duration="12702000" />
-      <workItem from="1588605192181" duration="476000" />
+      <workItem from="1588605192181" duration="16925000" />
+      <workItem from="1588664743799" duration="572000" />
+      <workItem from="1588666487982" duration="3301000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1587327341005</created>
@@ -153,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587541201713</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sections were made&#10;added decoration">
+      <created>1588605727733</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588605727733</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -196,10 +193,10 @@
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
     <state x="1171" y="272" key="SettingsEditor/78.0.2482.1080@78.0.2482.1080" timestamp="1588605354761" />
-    <state x="877" y="412" key="Vcs.Push.Dialog.v2" timestamp="1588605660289">
+    <state x="877" y="412" key="Vcs.Push.Dialog.v2" timestamp="1588605733301">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
-    <state x="877" y="412" key="Vcs.Push.Dialog.v2/78.0.2482.1080@78.0.2482.1080" timestamp="1588605660289" />
+    <state x="877" y="412" key="Vcs.Push.Dialog.v2/78.0.2482.1080@78.0.2482.1080" timestamp="1588605733301" />
     <state x="1165" y="488" key="git4idea.rebase.GitRebaseDialog" timestamp="1588605245960">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
