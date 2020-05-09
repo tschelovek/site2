@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8036f47b-9b5c-45c5-8e5e-e0ad5b800618" name="Default Changelist" comment=".about &#10;.fetured_items added some effects">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="8036f47b-9b5c-45c5-8e5e-e0ad5b800618" name="Default Changelist" comment="I've f**n did it!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Layer_41.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Layer_41.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +128,8 @@
       <workItem from="1588886349574" duration="3165000" />
       <workItem from="1588931946602" duration="16997000" />
       <workItem from="1588963342970" duration="229000" />
-      <workItem from="1588963642545" duration="9691000" />
+      <workItem from="1588963642545" duration="13521000" />
+      <workItem from="1589026925095" duration="9538000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1587327341005</created>
@@ -167,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588680202858</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="I've f**n did it!">
+      <created>1588980294025</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588980294025</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +197,8 @@
     <MESSAGE value="changed classes&#10;fixed flexes" />
     <MESSAGE value="sections were made&#10;added decoration" />
     <MESSAGE value=".about &#10;.fetured_items added some effects" />
-    <option name="LAST_COMMIT_MESSAGE" value=".about &#10;.fetured_items added some effects" />
+    <MESSAGE value="I've f**n did it!" />
+    <option name="LAST_COMMIT_MESSAGE" value="I've f**n did it!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="776" y="509" key="FileChooserDialogImpl" timestamp="1588780635534">
@@ -203,10 +210,10 @@
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
     <state x="1171" y="272" key="SettingsEditor/78.0.2482.1080@78.0.2482.1080" timestamp="1588885560437" />
-    <state x="877" y="412" key="Vcs.Push.Dialog.v2" timestamp="1588680212290">
+    <state x="877" y="412" key="Vcs.Push.Dialog.v2" timestamp="1588980319382">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
-    <state x="877" y="412" key="Vcs.Push.Dialog.v2/78.0.2482.1080@78.0.2482.1080" timestamp="1588680212290" />
+    <state x="877" y="412" key="Vcs.Push.Dialog.v2/78.0.2482.1080@78.0.2482.1080" timestamp="1588980319382" />
     <state x="1165" y="488" key="git4idea.rebase.GitRebaseDialog" timestamp="1588605245960">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
