@@ -657,3 +657,71 @@ footer {
 .backgr_gray p {
     display: block;
 }
+
+
+.arrivals {
+    background: #f8f3f4;
+}
+
+.arrivals__header {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.arrivals__header h2 {
+    color: #f16d7f;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.arrivals__header ul {
+    font-size: 14px;
+    list-style-type: none;
+    display: flex;
+    padding: 70px 0;
+}
+
+.arrivals__header li span {
+    color: #f16d7f;
+}
+
+.arrivals__header a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: #636363;
+}
+
+.newArrivals {
+    background: #f7f7f7;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 50px;
+}
+
+.womenCollection {
+    padding: 50px 30px;
+    margin-top: -85px;
+    border: 1px solid #eaeaea;
+}
+
+.womenCollection__item {
+    margin: 0 270px 60px;
+    border-bottom: 1px solid #eaeaea;
+
+}
+
+.womenCollection__item h3, h4{
+    color: #f16d7f;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.womenCollection__item h4{
+    color: #222222;
+    font-size: 18px;
+}
