@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8036f47b-9b5c-45c5-8e5e-e0ad5b800618" name="Default Changelist" comment="Remarks eliminated&#10;effects added">
-      <change afterPath="$PROJECT_DIR$/SinglePage.html" afterDir="false" />
+    <list default="true" id="8036f47b-9b5c-45c5-8e5e-e0ad5b800618" name="Default Changelist" comment="2nd page renamed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +131,7 @@
       <workItem from="1589312355140" duration="3460000" />
       <workItem from="1589318947218" duration="4701000" />
       <workItem from="1589354791726" duration="1001000" />
-      <workItem from="1589467829826" duration="4060000" />
+      <workItem from="1589467829826" duration="5216000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1587327341005</created>
@@ -184,7 +182,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589036838205</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2nd page">
+      <created>1589480811114</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589480811114</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2nd page">
+      <created>1589481324921</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589481324921</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2nd page renamed">
+      <created>1589481614043</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589481614043</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +229,9 @@
     <MESSAGE value=".about &#10;.fetured_items added some effects" />
     <MESSAGE value="I've f**n did it!" />
     <MESSAGE value="Remarks eliminated&#10;effects added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remarks eliminated&#10;effects added" />
+    <MESSAGE value="2nd page" />
+    <MESSAGE value="2nd page renamed" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd page renamed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="776" y="509" key="FileChooserDialogImpl" timestamp="1588780635534">
@@ -222,10 +243,10 @@
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
     <state x="1171" y="272" key="SettingsEditor/78.0.2482.1080@78.0.2482.1080" timestamp="1588885560437" />
-    <state x="877" y="412" key="Vcs.Push.Dialog.v2" timestamp="1589036847178">
+    <state x="877" y="412" key="Vcs.Push.Dialog.v2" timestamp="1589481848998">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
-    <state x="877" y="412" key="Vcs.Push.Dialog.v2/78.0.2482.1080@78.0.2482.1080" timestamp="1589036847178" />
+    <state x="877" y="412" key="Vcs.Push.Dialog.v2/78.0.2482.1080@78.0.2482.1080" timestamp="1589481848998" />
     <state x="1165" y="488" key="git4idea.rebase.GitRebaseDialog" timestamp="1588605245960">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
