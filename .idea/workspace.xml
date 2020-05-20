@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8036f47b-9b5c-45c5-8e5e-e0ad5b800618" name="Default Changelist" comment="2nd page renamed">
+    <list default="true" id="8036f47b-9b5c-45c5-8e5e-e0ad5b800618" name="Default Changelist" comment="2nd ready">
+      <change afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -76,12 +78,13 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Haml" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\STUDY\Web Prgrm\site" />
-      <recent name="E:\STUDY\Web Prgrm\site\images\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\STUDY\Web Prgrm\site\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\www\site" />
+      <recent name="E:\STUDY\Web Prgrm\site" />
+      <recent name="E:\STUDY\Web Prgrm\site\images\css" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -135,7 +138,10 @@
       <workItem from="1589318947218" duration="4701000" />
       <workItem from="1589354791726" duration="1001000" />
       <workItem from="1589467829826" duration="10564000" />
-      <workItem from="1589531989562" duration="12175000" />
+      <workItem from="1589531989562" duration="12829000" />
+      <workItem from="1589608912388" duration="13439000" />
+      <workItem from="1589703742780" duration="2484000" />
+      <workItem from="1589718960903" duration="508000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1587327341005</created>
@@ -214,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589481867343</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2nd ready">
+      <created>1589563647601</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589563647601</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2nd ready">
+      <created>1589563658665</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589563658665</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +262,8 @@
     <MESSAGE value="Remarks eliminated&#10;effects added" />
     <MESSAGE value="2nd page" />
     <MESSAGE value="2nd page renamed" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd page renamed" />
+    <MESSAGE value="2nd ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd ready" />
   </component>
   <component name="WindowStateProjectService">
     <state x="776" y="509" key="FileChooserDialogImpl" timestamp="1588780635534">
@@ -254,10 +275,10 @@
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
     <state x="1171" y="272" key="SettingsEditor/78.0.2482.1080@78.0.2482.1080" timestamp="1588885560437" />
-    <state x="877" y="412" key="Vcs.Push.Dialog.v2" timestamp="1589481874242">
+    <state x="877" y="412" key="Vcs.Push.Dialog.v2" timestamp="1589563663017">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
-    <state x="877" y="412" key="Vcs.Push.Dialog.v2/78.0.2482.1080@78.0.2482.1080" timestamp="1589481874242" />
+    <state x="877" y="412" key="Vcs.Push.Dialog.v2/78.0.2482.1080@78.0.2482.1080" timestamp="1589563663017" />
     <state x="1165" y="488" key="git4idea.rebase.GitRebaseDialog" timestamp="1588605245960">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
