@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
 </head>
 <body>
 <header class="header">
     <div class="container">
         <div class="brand_search_login">
             <a class="logo" href="index.html"><img src="images/Group_2.png"
-                                          alt="logo">BRAN<span>D</span></a>
+                                                   alt="logo">BRAN<span>D</span></a>
             <div class="searchForm">
                 <form method="get">
                     <ul class="searchForm">
@@ -34,7 +36,7 @@
                 </form>
             </div>
             <div class="cart_and_button">
-                <a href="cart.html"> <img src="images/s_cart.svg" alt="cart"> </a>
+                <a href="cart.html" class="cartIcon"> <img src="images/s_cart.svg" alt="cart"> </a>
                 <a href="chekout.html" class="button_pink">My Account</a>
             </div>
         </div>
@@ -113,7 +115,7 @@
                         <div class="item_img_cont">
                             <img src="images/item1.png" alt="Mango People T-shirt">
                             <div class="blur">
-                                <a href="#">
+                                <a href="#" class="addToCart" data-id="1">
                                     <img src="images/s_cart_white.svg" alt="cart" width="25" height="25">
                                     Add to Cart
                                 </a>
@@ -123,7 +125,7 @@
                     <li>
                         <a class="test" href="#">Mango People T-shirt</a>
                     </li>
-                    <li><span>$52.00</span></li>
+                    <li><span class="item_price">$52.00</span></li>
                 </ul>
             </div>
             <div class="item">
@@ -132,7 +134,7 @@
                         <div class="item_img_cont">
                             <img src="images/item2.png" alt="Mango People T-shirt">
                             <div class="blur">
-                                <a href="#">
+                                <a href="#" class="addToCart" data-id="2">
                                     <img src="images/s_cart_white.svg" alt="cart" width="25" height="25">
                                     Add to Cart
                                 </a>
@@ -140,9 +142,9 @@
                         </div>
                     </li>
                     <li>
-                        <a class="test" href="#">Mango People T-shirt</a>
+                        <a class="test" href="#">Mango People Blouse</a>
                     </li>
-                    <li><span>$52.00</span></li>
+                    <li><span class="item_price">$34.00</span></li>
                 </ul>
             </div>
             <div class="item">
@@ -151,7 +153,7 @@
                         <div class="item_img_cont">
                             <img src="images/item3_2.png" alt="Mango People T-shirt">
                             <div class="blur">
-                                <a href="#">
+                                <a href="#" class="addToCart" data-id="3">
                                     <img src="images/s_cart_white.svg" alt="cart" width="25" height="25">
                                     Add to Cart
                                 </a>
@@ -159,9 +161,9 @@
                         </div>
                     </li>
                     <li>
-                        <a class="test" href="#">Mango People T-shirt</a>
+                        <a class="test" href="#">Mango People Jacket</a>
                     </li>
-                    <li><span>$52.00</span></li>
+                    <li><span class="item_price">$73.00</span></li>
                 </ul>
             </div>
             <div class="item">
@@ -170,7 +172,7 @@
                         <div class="item_img_cont">
                             <img src="images/item4.png" alt="Mango People T-shirt">
                             <div class="blur">
-                                <a href="#">
+                                <a href="#" class="addToCart" data-id="4">
                                     <img src="images/s_cart_white.svg" alt="cart" width="25" height="25">
                                     Add to Cart
                                 </a>
@@ -178,9 +180,9 @@
                         </div>
                     </li>
                     <li>
-                        <a class="test" href="#">Mango People T-shirt</a>
+                        <a class="test" href="#">Mango People Dress</a>
                     </li>
-                    <li><span>$52.00</span></li>
+                    <li><span class="item_price">$108.00</span></li>
                 </ul>
             </div>
             <div class="item">
@@ -189,7 +191,7 @@
                         <div class="item_img_cont">
                             <img src="images/item5.png" alt="Mango People T-shirt">
                             <div class="blur">
-                                <a href="#">
+                                <a href="#" class="addToCart" data-id="5">
                                     <img src="images/s_cart_white.svg" alt="cart" width="25" height="25">
                                     Add to Cart
                                 </a>
@@ -197,9 +199,9 @@
                         </div>
                     </li>
                     <li>
-                        <a class="test" href="#">Mango People T-shirt</a>
+                        <a class="test" href="#">Mango People Sundress</a>
                     </li>
-                    <li><span>$52.00</span></li>
+                    <li><span class="item_price">$23.00</span></li>
                 </ul>
             </div>
             <div class="item">
@@ -208,7 +210,7 @@
                         <div class="item_img_cont">
                             <img src="images/item6.png" alt="Mango People T-shirt">
                             <div class="blur">
-                                <a href="#">
+                                <a href="#" class="addToCart" data-id="6">
                                     <img src="images/s_cart_white.svg" alt="cart" width="25" height="25">
                                     Add to Cart
                                 </a>
@@ -216,9 +218,9 @@
                         </div>
                     </li>
                     <li>
-                        <a class="test" href="#">Mango People T-shirt</a>
+                        <a class="test" href="#">Mango People Hat</a>
                     </li>
-                    <li><span>$52.00</span></li>
+                    <li><span class="item_price">$8.00</span></li>
                 </ul>
             </div>
             <div class="item">
@@ -227,7 +229,7 @@
                         <div class="item_img_cont">
                             <img src="images/item7.png" alt="Mango People T-shirt">
                             <div class="blur">
-                                <a href="#">
+                                <a href="#" class="addToCart" data-id="7">
                                     <img src="images/s_cart_white.svg" alt="cart" width="25" height="25">
                                     Add to Cart
                                 </a>
@@ -235,9 +237,9 @@
                         </div>
                     </li>
                     <li>
-                        <a class="test" href="#">Mango People T-shirt</a>
+                        <a class="test" href="#">Mango People Jeans</a>
                     </li>
-                    <li><span>$52.00</span></li>
+                    <li><span class="item_price">$18.00</span></li>
                 </ul>
             </div>
             <div class="item">
@@ -246,7 +248,7 @@
                         <div class="item_img_cont">
                             <img src="images/item8.png" alt="Mango People T-shirt">
                             <div class="blur">
-                                <a href="#">
+                                <a href="#" class="addToCart" data-id="8">
                                     <img src="images/s_cart_white.svg" alt="cart" width="25" height="25">
                                     Add to Cart
                                 </a>
@@ -254,9 +256,9 @@
                         </div>
                     </li>
                     <li>
-                        <a class="test" href="#">Mango People T-shirt</a>
+                        <a class="test" href="#">Mango People Sweeter</a>
                     </li>
-                    <li><span>$52.00</span></li>
+                    <li><span class="item_price">$205.00</span></li>
                 </ul>
             </div>
         </div>
@@ -395,6 +397,8 @@
     </div>
 </section>
 
+<div id="cart_content"></div>
+
 <footer>
 
     <div class="backgr_gray container">
@@ -422,5 +426,10 @@
         </ul>
     </div>
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/cart.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
 </body>
 </html>

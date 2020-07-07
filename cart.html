@@ -69,10 +69,54 @@
 
 <section class="s_shopCart container">
     <div class="shopCart">
-        <div class="shopCart_items">
-
+        <div class="shopCart__items">
+            <div class="shopCart__header shopCart__row">
+                <div class="shopCart__product">
+                    <span class="shopCart__header__titles">PRODUCT DETAILS</span>
+                </div>
+                <div class="shopCart__price">
+                    <span class="shopCart__header__titles">UNITE PRICE</span>
+                </div>
+                <div class="shopCart__quantity">
+                    <span class="shopCart__header__titles">QUANTITY</span>
+                </div>
+                <div class="shopCart__shipping">
+                    <span class="shopCart__header__titles">SHIPPING</span>
+                </div>
+                <div class="shopCart__subtotal">
+                    <span class="shopCart__header__titles">SUBTOTAL</span>
+                </div>
+                <div class="shopCart__action">
+                    <span class="shopCart__header__titles">ACTION</span>
+                </div>
+            </div>
+            <div class="shopCart__item shopCart__row">
+                <div class="shopCart__product">
+                    <div class="shopCart__item__describe">
+                        <img src="images/item2.png" alt="" height="120px" class="shopCart__item_image">
+                        <div class="shopCart__item__describe_text">
+                            <span class="itemName">Mangol</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopCart__price">
+                    <span class="shopCart__item_text">$150</span>
+                </div>
+                <div class="shopCart__quantity">
+                    <input id="shopCart__quantity_inpt" name="shopCart__quantity_inpt" type="number" min="1" max="30">
+                </div>
+                <div class="shopCart__shipping">
+                    <span class="shopCart__item_text">FREE</span>
+                </div>
+                <div class="shopCart__subtotal">
+                    <span class="shopCart__item_text">$300</span>
+                </div>
+                <div class="shopCart__action">
+                    <a href="#" class=shopCartDelete><i class="fas fa-times"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="shopCart_control">
+        <div class="shopCart__control">
             <a href="#" class="whiteButton">clear shopping cart</a>
             <a href="#" class="whiteButton">continue shopping</a>
         </div>
@@ -222,6 +266,6 @@
         </ul>
     </div>
 </footer>
-
+<script type="text/javascript" src="js/cart.js"></script>
 </body>
 </html>

@@ -94,42 +94,36 @@
                 <span>$561</span>
             </div>
             <div class="item_choice">
-                <div class="optionsList">
-                    <div class="optionsList_unit">
-                        Choose color
-                        <form method="get">
-                            <label>
-                                <select name="Choose color">
+                <fieldset class="optionsList">
+                    <form method="get" class="optionsForm">
+                        <ul>
+                            <li>
+                                <label for="chooseColor">Choose color</label>
+                                <select id="chooseColor" name="chooseColor">
                                     <option value="Black" selected>Чёрный</option>
                                     <option value="White">Белый</option>
                                     <option value="Blue">Синий</option>
                                 </select>
-                            </label>
-                        </form>
-                    </div>
+                            </li>
 
-                    <div class="optionsList_unit">
-                        Choose size
-                        <form method="get">
-                            <label>
-                                <select name="Choose size">
-                                    <option value="Small" selected>S</option>
-                                    <option value="Medium">M</option>
+                            <li>
+                                <label for="chooseSize">Choose size</label>
+                                <select id="chooseSize" name="chooseSize">
+                                    <option value="Small">S</option>
+                                    <option value="Medium" selected>M</option>
                                     <option value="Large">L</option>
                                 </select>
-                            </label>
-                        </form>
-                    </div>
+                            </li>
 
-                    <div class="optionsList_unit">
-                        quantity
-                        <form method="get">
-                            <label>
-                                <input type="number" name="n" min="0" max="20" step="1">
-                            </label>
-                        </form>
-                    </div>
-                </div>
+                            <li>
+                                <label for="chooseQuantity">quantity</label>
+                                <input id="chooseQuantity" name="chooseQuantity" type="number" min="0" max="30"
+                                       step="1">
+                            </li>
+                        </ul>
+                    </form>
+                </fieldset>
+
                 <div class="bigButton_container">
                     <a href="#" class="bigButton">
                         <img src="images/s_cart_pink.png.svg" alt="cart" width="25" height="25">
@@ -161,7 +155,7 @@
                     <li>
                         <a class="test" href="#">BLAZE LEGGINGS</a>
                     </li>
-                    <li><span>$52.00</span></li>
+                    <li><span>$45.00</span></li>
                 </ul>
             </div>
             <div class="item">
@@ -180,7 +174,7 @@
                     <li>
                         <a class="test" href="#">ALEXA SWEATER</a>
                     </li>
-                    <li><span>$52.00</span></li>
+                    <li><span>$85.00</span></li>
                 </ul>
             </div>
             <div class="item">
@@ -199,7 +193,7 @@
                     <li>
                         <a class="test" href="#">AGNES TOP</a>
                     </li>
-                    <li><span>$52.00</span></li>
+                    <li><span>$16.00</span></li>
                 </ul>
             </div>
             <div class="item">
@@ -218,7 +212,7 @@
                     <li>
                         <a class="test" href="#">SYLVA SWEATER</a>
                     </li>
-                    <li><span>$52.00</span></li>
+                    <li><span>$33.00</span></li>
                 </ul>
             </div>
         </div>
