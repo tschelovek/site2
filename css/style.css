@@ -243,22 +243,22 @@ ul {
     background: #e8e8e8;
 }
 
-.poster {
+.poster1, .poster2, .poster3 {
     position: relative;
-    margin-bottom: 50px;
 }
 
-.poster img {
+.poster1 img, .poster2 img, .poster3 img {
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
     display: flex;
 }
 
-.poster__name__container {
+.poster__name__container_left {
     border-left: 6px solid #f16d7f;
     position: absolute;
     top: 50%;
+    left: 10px;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -270,7 +270,23 @@ ul {
     box-sizing: border-box;
 }
 
-.poster__name {
+.poster__name__container_right {
+    border-right: 6px solid #f16d7f;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-right: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.poster__name, .poster__name_small {
     display: inline-block;
     text-transform: uppercase;
     color: #222222;
@@ -279,13 +295,37 @@ ul {
     text-decoration: none;
 }
 
-.poster p {
+.poster__name_small {
+    font-size: 40px;
+}
+
+.poster1 p {
     font-family: sans-serif;
     font-size: 40px;
     margin: 0;
 }
 
-.poster p span {
+.poster1 p span {
+    color: #f16d7f;
+}
+
+.poster2 p {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.poster2 p span {
+    color: #f16d7f;
+}
+
+.poster3 p {
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.poster3 p span {
     color: #f16d7f;
 }
 
@@ -365,7 +405,7 @@ ul {
     line-height: 54px;
 }
 
-.fetured_items {
+.feturedItems {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
