@@ -24,7 +24,6 @@
       <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chekout.html" beforeDir="false" afterPath="$PROJECT_DIR$/chekout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/single/babality.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/single/singleItem.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/singlepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/singlepage.html" afterDir="false" />
     </list>
@@ -74,7 +73,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Курсы/Интенсив __JS player/1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -82,7 +81,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -159,7 +158,12 @@
       <workItem from="1595183089902" duration="4652000" />
       <workItem from="1595276099540" duration="6844000" />
       <workItem from="1595416802403" duration="9190000" />
-      <workItem from="1595515392554" duration="2979000" />
+      <workItem from="1595515392554" duration="6411000" />
+      <workItem from="1595578642802" duration="793000" />
+      <workItem from="1595753687786" duration="139000" />
+      <workItem from="1595753845496" duration="9721000" />
+      <workItem from="1595857504204" duration="27000" />
+      <workItem from="1597170607757" duration="2254000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1587327341005</created>
@@ -273,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595416964986</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="scripts added&#10;html edited">
+      <created>1595536036160</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595536036160</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,19 +319,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="scripts added&#10;html edited" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="776" y="509" key="FileChooserDialogImpl" timestamp="1594068239443">
+    <state x="776" y="509" key="FileChooserDialogImpl" timestamp="1595857528319">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
     <state x="776" y="509" key="FileChooserDialogImpl/78.0.2482.1080/2560.0.1680.1010@78.0.2482.1080" timestamp="1588780635534" />
-    <state x="776" y="509" key="FileChooserDialogImpl/78.0.2482.1080@78.0.2482.1080" timestamp="1594068239443" />
-    <state x="811" y="215" key="SettingsEditor" timestamp="1595183223457">
+    <state x="776" y="509" key="FileChooserDialogImpl/78.0.2482.1080@78.0.2482.1080" timestamp="1595857528319" />
+    <state x="331" y="98" key="SettingsEditor" timestamp="1595754614861">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
-    <state x="811" y="215" key="SettingsEditor/78.0.2482.1080@78.0.2482.1080" timestamp="1595183223457" />
-    <state x="348" y="291" key="Vcs.Push.Dialog.v2" timestamp="1595417015250">
+    <state x="331" y="98" key="SettingsEditor/78.0.2482.1080@78.0.2482.1080" timestamp="1595754614861" />
+    <state x="348" y="291" key="Vcs.Push.Dialog.v2" timestamp="1595536045896">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
-    <state x="348" y="291" key="Vcs.Push.Dialog.v2/78.0.2482.1080@78.0.2482.1080" timestamp="1595417015250" />
+    <state x="348" y="291" key="Vcs.Push.Dialog.v2/78.0.2482.1080@78.0.2482.1080" timestamp="1595536045896" />
     <state x="1165" y="488" key="git4idea.rebase.GitRebaseDialog" timestamp="1588605245960">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>

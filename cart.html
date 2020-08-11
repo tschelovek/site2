@@ -39,20 +39,23 @@
         </div>
     </div>
     <hr>
+</header>
+
+<div class="sticky">
     <div class="container">
         <nav class="nav">
             <ul>
                 <li><a href="#">home</a></li>
                 <li><a href="singlepage.html">man</a></li>
-                <li><a href="#">women</a></li>
-                <li><a href="#">kids</a></li>
-                <li><a href="#">accoseriese</a></li>
-                <li><a href="#">featured</a></li>
-                <li><a href="#">hot deals</a></li>
+                <li><a href="singlepage.html">women</a></li>
+                <li><a href="singlepage.html">kids</a></li>
+                <li><a href="singlepage.html">accessories</a></li>
+                <li><a href="singlepage.html">featured</a></li>
+                <li><a href="singlepage.html">hot deals</a></li>
             </ul>
         </nav>
     </div>
-</header>
+</div>
 
 <div class="breadCrumbs">
     <div class="container ">
@@ -60,6 +63,7 @@
             <h2 class="arrivals">Shopping Cart</h2>
             <ul>
                 <li><a href="index.html">home</a></li>
+                <li>/</li>
                 <li><a href="#"><span>Shopping Cart</span></a></li>
             </ul>
         </div>
@@ -119,31 +123,31 @@
             <a href="#" class="whiteButton">clear shopping cart</a>
             <a href="#" class="whiteButton">continue shopping</a>
         </div>
-        <form method="get">
-            <div class="shopCartData">
-                <div class="shopCartData__el">
-                    <h4>shipping adress</h4>
-                    <label>
-                        <input type="text" placeholder="Choose your country" alt="Country">
-                        <input type="text" placeholder="State" alt="State">
-                        <input type="number" placeholder="Postcode/Zip" alt="Postcode/Zip">
-                    </label>
-                    <a href="#" class="whiteButton_small">get a quote</a>
-                </div>
-                <div class="shopCartData__el">
-                    <h4>coupon discount</h4>
-                    <p>Enter your coupon code if you have one</p>
-                    <label>
-                        <input type="text" placeholder="Coupone code" alt="coupon">
-                    </label>
-                    <a href="#" class="whiteButton_small">apply coupon</a>
-                </div>
-                <div class="shopCartData__el">
-                    sub total $900
-                    Grand total $900
-                    <hr>
-                    <a href="#" class="button_pink">PROCEED TO CHECKOUT</a>
-                </div>
+        <form method="get" class="shopCartData">
+            <div class="shopCartData__el">
+                <ul>
+                    <li><label>shipping adress</label></li>
+                    <li><input type="text" placeholder="Choose your country" alt="Country"></li>
+                    <li><input type="text" placeholder="State" alt="State"></li>
+                    <li><input type="text" placeholder="Postcode/Zip" alt="Postcode/Zip"></li>
+                    <li><a href="#" class="whiteButton_small">get a quote</a></li>
+                </ul>
+            </div>
+            <div class="shopCartData__el">
+                <ul class="couponList">
+                    <li><label>coupon discount</label></li>
+                    <li><span>Enter your coupon code if you have one</span></li>
+                    <li><input type="text" placeholder="Coupon code" alt="coupon"></li>
+                    <li><a href="#" class="whiteButton_small">apply coupon</a></li>
+                </ul>
+            </div>
+            <div class="shopCartData__el totalPriceContainer">
+                <ul class="totalPrice">
+                <li class="totalPrice__sub">sub total <span class="totalPrice__sub_value">$900</span></li>
+                <li class="totalPrice__grand">Grand total <span class="totalPrice__grand_value">$900</span></li>
+                <li><hr></li>
+                <li><a href="#" class="button_pink button_pink_proceed">PROCEED TO CHECKOUT</a></li>
+                </ul>
             </div>
         </form>
     </div>
