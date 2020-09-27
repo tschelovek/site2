@@ -19,12 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8036f47b-9b5c-45c5-8e5e-e0ad5b800618" name="Default Changelist" comment="scripts added&#10;html edited">
+    <list default="true" id="8036f47b-9b5c-45c5-8e5e-e0ad5b800618" name="Default Changelist" comment="Some minor changes">
+      <change afterPath="$PROJECT_DIR$/js/headerScripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chekout.html" beforeDir="false" afterPath="$PROJECT_DIR$/chekout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/shop-items.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/shop-items.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/singlepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/singlepage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +77,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Курсы/Интенсив __JS player/1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -84,14 +88,29 @@
     <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\STUDY\Web Prgrm\site\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\www\site\js" />
       <recent name="E:\www\site" />
       <recent name="E:\STUDY\Web Prgrm\site" />
       <recent name="E:\STUDY\Web Prgrm\site\images\css" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\STUDY\Web Prgrm\site\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="cart.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/site/cart.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/site/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.cart.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -163,7 +182,10 @@
       <workItem from="1595753687786" duration="139000" />
       <workItem from="1595753845496" duration="9721000" />
       <workItem from="1595857504204" duration="27000" />
-      <workItem from="1597170607757" duration="2254000" />
+      <workItem from="1597170607757" duration="2376000" />
+      <workItem from="1597220932284" duration="14515000" />
+      <workItem from="1597415592173" duration="6746000" />
+      <workItem from="1601231923411" duration="668000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1587327341005</created>
@@ -284,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595536036160</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Some minor changes">
+      <created>1597185065919</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1597185065919</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,26 +345,30 @@
     <MESSAGE value="another pages added" />
     <MESSAGE value="scripts added" />
     <MESSAGE value="scripts added&#10;html edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="scripts added&#10;html edited" />
+    <MESSAGE value="Some minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some minor changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="776" y="509" key="FileChooserDialogImpl" timestamp="1595857528319">
+    <state x="171" y="100" width="1058" height="887" key="DiffContextDialog" timestamp="1597224798530">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
-    <state x="776" y="509" key="FileChooserDialogImpl/78.0.2482.1080/2560.0.1680.1010@78.0.2482.1080" timestamp="1588780635534" />
-    <state x="776" y="509" key="FileChooserDialogImpl/78.0.2482.1080@78.0.2482.1080" timestamp="1595857528319" />
+    <state x="171" y="100" width="1058" height="887" key="DiffContextDialog/78.0.2482.1080@78.0.2482.1080" timestamp="1597224798530" />
+    <state x="776" y="509" key="FileChooserDialogImpl" timestamp="1597425004870">
+      <screen x="78" y="0" width="2482" height="1080" />
+    </state>
+    <state x="776" y="509" key="FileChooserDialogImpl/78.0.2482.1080@78.0.2482.1080" timestamp="1597425004870" />
     <state x="331" y="98" key="SettingsEditor" timestamp="1595754614861">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
     <state x="331" y="98" key="SettingsEditor/78.0.2482.1080@78.0.2482.1080" timestamp="1595754614861" />
-    <state x="348" y="291" key="Vcs.Push.Dialog.v2" timestamp="1595536045896">
+    <state x="348" y="291" key="Vcs.Push.Dialog.v2" timestamp="1597185071500">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
-    <state x="348" y="291" key="Vcs.Push.Dialog.v2/78.0.2482.1080@78.0.2482.1080" timestamp="1595536045896" />
-    <state x="1165" y="488" key="git4idea.rebase.GitRebaseDialog" timestamp="1588605245960">
+    <state x="348" y="291" key="Vcs.Push.Dialog.v2/78.0.2482.1080@78.0.2482.1080" timestamp="1597185071500" />
+    <state x="480" y="256" key="git4idea.branch.GitSmartOperationDialog" timestamp="1597224480991">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>
-    <state x="1165" y="488" key="git4idea.rebase.GitRebaseDialog/78.0.2482.1080@78.0.2482.1080" timestamp="1588605245960" />
+    <state x="480" y="256" key="git4idea.branch.GitSmartOperationDialog/78.0.2482.1080@78.0.2482.1080" timestamp="1597224480991" />
     <state x="361" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1588887290851">
       <screen x="78" y="0" width="2482" height="1080" />
     </state>

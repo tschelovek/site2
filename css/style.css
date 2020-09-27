@@ -27,9 +27,29 @@ a {
     text-decoration: none;
 }
 
+.wrapper{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
 .header {
-    max-width: 100vw;
+    width: 100%;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 2;
 }
 
 .header hr {
@@ -37,18 +57,24 @@ a {
     border: none;
     height: 1px;
     background: #b2b2b2;
+    z-index: 2;
+    position: relative;
 }
 
+.header__burger {
+    display: none;
+}
 
 .container {
     width: 1200px;
     padding: 0 30px;
     margin: 0 auto;
     box-sizing: border-box;
-
 }
 
-.brand_search_login {
+.header__body_top {
+    position: relative;
+    z-index: 3;
     display: flex;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -56,6 +82,12 @@ a {
     flex-direction: row;
     align-items: center;
     padding: 30px 0;
+    transition: all 0.3s ease;
+}
+
+.header__body_top.shrink {
+    padding: 0;
+    transition: all 0.3s ease;
 }
 
 .button_pink {
@@ -120,10 +152,6 @@ a {
     display: flex;
     align-items: flex-end;
 }
-
-/*.cart_and_button a:first-child {*/
-/*    margin-right: 20px;*/
-/*}*/
 
 .cartIcon {
     margin-right: 20px;
@@ -213,13 +241,6 @@ a {
     box-shadow: 0 0 10px #898989;
 }
 
-.sticky {
-    position: sticky;
-    top: 0;
-    z-index: 2;
-    background-color: #ffffff;
-}
-
 .nav {
     margin-bottom: 5px;
     display: flex;
@@ -233,6 +254,7 @@ a {
     justify-content: space-around;
     margin: 0 auto;
     align-items: center;
+    z-index: 3;
 }
 
 .nav a {
@@ -248,6 +270,12 @@ a {
     position: relative;
     padding: 0 5px;
     line-height: 50px;
+    transition: all 0.3s ease;
+}
+
+.nav.shrink a {
+    line-height: 15px;
+    transition: all 0.3s ease;
 }
 
 .nav a:after {
@@ -271,6 +299,13 @@ a {
 
 .s_poster {
     background: #e8e8e8;
+    margin-top: 210px;
+}
+
+.posterContainer {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .poster1, .poster2, .poster3 {
@@ -304,7 +339,7 @@ a {
     border-right: 6px solid #f16d7f;
     position: absolute;
     top: 50%;
-    right: 10px;
+    right: 19%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1134,4 +1169,132 @@ footer {
 
 .totalPrice__grand_value {
     color: #f16d7f;
+}
+
+
+@media (max-width: 1199px) {
+
+.container {
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+}
+
+@media (max-width: 767px) {
+
+    body.lock {
+        overflow: hidden;
+    }
+
+    .header__container {
+        display: flex;
+    }
+
+    .header__body_top {
+        padding: 0;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .header__burger {
+        display: inline-flex;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        margin-top: 35px;
+        z-index: 3;
+    }
+
+    .header__burger span {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: 9px;
+        background-color: #b2b2b2;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger:before, .header__burger:after {
+        content: '';
+        background-color: #b2b2b2;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger:before {
+        top: 0;
+    }
+
+    .header__burger:after {
+        bottom: 0;
+    }
+
+    .header__burger.active span {
+        transform: scale(0);
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger.active:before  {
+        transform: rotate(45deg);
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger.active:after  {
+        transform: rotate(-45deg);
+        bottom: 9px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .nav {
+        position: fixed;
+        top: -150%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #f16d7f;
+        padding: 200px 0 0 0;
+        display: block;
+        overflow: auto;
+        transition: all 0.6s ease 0s;
+    }
+
+    .nav ul {
+        display: block;
+    }
+
+    .nav li {
+        margin-bottom: 30px;
+    }
+
+    .nav a {
+        line-height: 35px;
+        font-size: 26px;
+    }
+
+    .nav.active {
+        top: 0;
+        transition: all 0.6s ease 0s;
+    }
+
+    .header__body_top {
+        padding-top: 10px;
+    }
+
+    .header hr {
+display: none;
+    }
+
+    .s_poster {
+        margin-top: 90px;
+    }
+
 }
